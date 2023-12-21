@@ -22,6 +22,9 @@ const Home = () => {
             Feel free to explore the app and enjoy the seamless integration of authentication and GIF search features. Good luck with the test!
           </h1>
         </div>
+        <div className="mt-4 text-center text-gray-500">
+        &copy; {new Date().getFullYear()} Made with ❤️ by harshit.
+      </div>
       </div>
     </div>
   );
