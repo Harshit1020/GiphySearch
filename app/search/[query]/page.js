@@ -36,7 +36,7 @@ const GiphySearch = ({ params }) => {
   return (
     <div>
     <Navbar/>
-      <h3 className="text-center font-mono text-xl">Search results for {params.query}</h3>
+      <h3 className="text-center font-mono text-xl">Search results.......</h3>
       <InfiniteScroll
         dataLength={gifs.length}
         next={fetchData}
