@@ -1,6 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import Header from '@/Components/other/header/Header'
+import Header from '@/Components/Header'
 import { ToastContainer} from './wrapper';
 import 'react-toastify/dist/ReactToastify.css';
 import { Suspense } from "react";
