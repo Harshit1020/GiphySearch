@@ -17,7 +17,7 @@ const Image = () => {
 
     async function getSingleImage() {
         try {
-            const { data } = await axios.get(`https://api.giphy.com/v1/gifs/${id}?api_key=${process.env.NEXT_PUBLIC_GIPHY_API_KEY}&rating=g`);
+            const { data } = await axios.get(`https://api.giphy.com/v1/gifs/${id}?api_key=ezPdyJdcbFzl6CAWWJzv842nSsZ5GdBW&rating=g`);
             setSingleImage(data);
             setLoading(false);
             const existingFavorites = JSON.parse(localStorage.getItem('favorites')) || [];

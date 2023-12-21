@@ -15,7 +15,7 @@ const GiphySearch = ({ params }) => {
     try {
       const results = await axios.get("/search", {
         params: {
-          api_key:process.env.NEXT_PUBLIC_GIPHY_API_KEY,
+          api_key:"ezPdyJdcbFzl6CAWWJzv842nSsZ5GdBW",
           q: params.query,
           limit: 10,
           offset: gifs.length,

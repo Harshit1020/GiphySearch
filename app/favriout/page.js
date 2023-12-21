@@ -19,7 +19,7 @@ const Page = () => {
         const existingFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
         const idsString = existingFavorites.join(',');
         if (idsString) {
-          const response = await axios.get(`https://api.giphy.com/v1/gifs?api_key=${process.env.NEXT_PUBLIC_GIPHY_API_KEY}&ids=${idsString}&rating=g`);
+          const response = await axios.get(`https://api.giphy.com/v1/gifs?api_key=ezPdyJdcbFzl6CAWWJzv842nSsZ5GdBW&ids=${idsString}&rating=g`);
           setFavorites([...response.data.data]);
         }
       } catch (error) {
