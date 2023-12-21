@@ -1,4 +1,4 @@
-![Screenshot (907)](https://github.com/Harshit1020/GiphySearch/assets/95414266/88ce113b-7649-4e24-838f-be00fa95e957)# Next.js with Firebase Authentication and GIPHY API Integration
+# Next.js with Firebase Authentication and GIPHY API Integration
 
 A full-stack web application built with Next.js, Firebase Authentication, and GIPHY API integration. The app allows users to search for GIFs, mark favorites, implement hot search, and enjoy infinite scroll functionality.
 
@@ -71,7 +71,7 @@ To run the project locally, follow these steps:
 
 
 ![Screenshot (900)](https://github.com/Harshit1020/GiphySearch/assets/95414266/0fb554ab-75b6-4d19-b88f-dae9f837ec63)
-
+![Screenshot (907)](https://github.com/Harshit1020/GiphySearch/assets/95414266/88ce113b-7649-4e24-838f-be00fa95e957)
 ![Screenshot (901)](https://github.com/Harshit1020/GiphySearch/assets/95414266/ff05fc8b-096f-49a3-b0ec-8149c9e18d7d)
 ![Screenshot (902)](https://github.com/Harshit1020/GiphySearch/assets/95414266/cc1735dd-20ca-44ca-8710-f18a42896248)
 ![Screenshot (903)](https://github.com/Harshit1020/GiphySearch/assets/95414266/4b3d8118-4c0f-4b86-8992-ad6e9f2f20d7)
