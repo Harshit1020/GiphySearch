@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from "@/utiles/axios" 
 import Link from 'next/link';
-import Card from '@/components/Card/page'; 
+import Card from '@/Components/Card/page'; 
 import ReactPaginate from 'react-paginate';
 import Navbar from "@/Components/Navbar"
 import Loading from "@/Components/Loading"
