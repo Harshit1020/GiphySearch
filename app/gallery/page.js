@@ -20,7 +20,7 @@ const Page = () => {
       setloading(false)
       const result = await axios.get('/trending', {
         params: {
-          api_key: process.env.NEXT_PUBLIC_GIPHY_API_KEY,
+          api_key:"ezPdyJdcbFzl6CAWWJzv842nSsZ5GdBW",
           offset: offset + gifsPerPage,
         },
       });
